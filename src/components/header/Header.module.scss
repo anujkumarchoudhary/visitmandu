@@ -1,0 +1,29 @@
+.headerContainer {
+    border: 1px solid blue;
+    padding-inline: 10%;
+    display: flex;
+    padding-block: 1.2%;
+
+    .logo {
+        width: 30%;
+    }
+
+    .menus {
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+
+        p {
+            margin-block: auto;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: #858585;
+            cursor: pointer;
+
+            &:hover {
+                color: #41B9EB;
+            }
+        }
+    }
+}

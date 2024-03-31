@@ -1,0 +1,20 @@
+.commonButtonContainer {
+    margin-block: auto;
+
+    button {
+        border-radius: 0%;
+        color: #ffffff;
+        background-color: #FFA801;
+        border: 1px solid #ffffff;
+        padding-block: 0.6rem;
+        padding-inline: 2rem;
+        font-size: 0.8rem;
+        font-weight: 600;
+
+        &:hover {
+            color: #FFA801;
+            background-color: #ffffff;
+            border: 1px solid #FFA801;
+        }
+    }
+}
