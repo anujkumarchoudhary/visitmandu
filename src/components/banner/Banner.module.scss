@@ -1,0 +1,52 @@
+.bannerContainer {
+    position: relative;
+
+    .img {
+        height: 35rem;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+        }
+    }
+
+    .opecity {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 35rem;
+        background-color: #000000;
+        opacity: 0.4;
+    }
+
+    .content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        >div {
+            color: #ffffff;
+            text-transform: uppercase;
+
+            h2 {
+                margin-block: 1.8rem;
+            }
+
+            >div[class="MuiGrid-root CommonButton_commonButtonContainer__8YXeh css-vj1n65-MuiGrid-root"] {
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+
+    >div:nth-last-child(1) {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        width: 80%;
+        transform: translate(-50%, -60%);
+    }
+}

@@ -1,0 +1,21 @@
+.weProvidesContainer {
+    padding-inline: 10%;
+    background-color: #F7F8F9;
+    .weProvide{
+        padding-block-start: 6%;
+        >div:nth-child(2){
+            position: relative;
+            >div:nth-child(1){
+                border: 5px solid #ffffff;
+                position: absolute;
+                right: 0%;
+            }
+            >div:nth-child(2){
+                border: 5px solid #ffffff;
+                position: absolute;
+                top: 20%;
+                left: 10%;
+            }
+        }
+    }
+}
