@@ -26,7 +26,10 @@ const Header = () => {
                     )
                 })}
                 <ShopCart />
-                <CommonButton />
+                <CommonButton
+                    name={'Book now'}
+                    handleClick={(() => console.log("hello"))}
+                />
             </Grid>
         </Grid>
     )

@@ -1,0 +1,12 @@
+.simpleCardContainer{
+    border: 2px solid #ffffff;
+    text-align: center;
+    padding-inline: 6%;
+    padding-block: 10%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: #ffffff;
+    >div{
+        width: fit-content;
+        margin: auto;
+    }
+}
