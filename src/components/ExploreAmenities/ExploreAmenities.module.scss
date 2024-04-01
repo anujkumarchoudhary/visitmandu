@@ -1,0 +1,18 @@
+.exploreAmenitiesContainer {
+    padding-inline: 10%;
+    padding-block: 5%;
+
+    >div:nth-child(1) {
+        margin-block-end: 2%;
+
+        >div:nth-child(1) {
+            text-align: center;
+            margin: auto;
+            width: 65%;
+        }
+
+        >div:nth-child(2) {
+            display: none;
+        }
+    }
+}
