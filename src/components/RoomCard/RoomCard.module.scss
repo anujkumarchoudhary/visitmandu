@@ -1,0 +1,58 @@
+.roomCardContainer {
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+    }
+
+    .heading {
+        display: flex;
+        justify-content: space-between;
+        margin-block: 0.5rem;
+
+        svg {
+            margin-inline-start: 0.25rem;
+            color: #FFA801;
+        }
+    }
+
+    .weProvide {
+        display: flex;
+
+        >div {
+            display: flex;
+
+            svg {
+                margin-block: auto;
+                color: #858785;
+            }
+
+            h5 {
+                margin-block: auto;
+                padding-inline-start: 0.4rem;
+                color: #858785;
+            }
+        }
+
+        >div:nth-child(1) {
+            margin-inline-end: 0.5rem;
+        }
+    }
+
+    .action {
+        display: flex;
+
+        >div:nth-child(1) {
+            margin-inline-end: 0.5rem;
+
+            button {
+                background-color: #092741;
+
+                &:hover {
+                    background-color: #ffffff;
+                }
+            }
+        }
+    }
+}
