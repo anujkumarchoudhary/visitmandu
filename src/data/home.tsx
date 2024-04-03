@@ -14,6 +14,10 @@ import { IoSettingsSharp } from "react-icons/io5";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { FaSwimmer } from "react-icons/fa";
 import { FaSmoking } from "react-icons/fa";
+import img from '../asserst/home/news1.jpg'
+import img1 from '../asserst/home/news2.jpg'
+import img2 from '../asserst/home/news3.jpg'
+import img3 from '../asserst/home/news4.jpg'
 
 
 export const weProvide = [
@@ -85,44 +89,85 @@ export const amenities = [
     },
     {
         "id": 2,
-        "icon": <FaCarAlt  fontSize={40}/>,
+        "icon": <FaCarAlt fontSize={40} />,
         "heading": "TRANSPORT",
         "price": 2010
     },
     {
         "id": 3,
-        "icon": <FaWifi  fontSize={40}/>,
+        "icon": <FaWifi fontSize={40} />,
         "heading": "FREE WIFI",
         "price": 2010
     },
     {
         "id": 4,
-        "icon": <FaHandsWash  fontSize={40}/>,
+        "icon": <FaHandsWash fontSize={40} />,
         "heading": "LAUNDRY SERVICE",
         "price": 2010
     },
     {
         "id": 5,
-        "icon": <IoSettingsSharp  fontSize={40}/>,
+        "icon": <IoSettingsSharp fontSize={40} />,
         "heading": "QUICK SERVICE",
         "price": 2010
     },
     {
         "id": 6,
-        "icon": <FaMapMarkerAlt  fontSize={40}/>,
+        "icon": <FaMapMarkerAlt fontSize={40} />,
         "heading": "CITY MAP",
         "price": 2010
     },
     {
         "id": 7,
-        "icon": <FaSwimmer  fontSize={40}/>,
+        "icon": <FaSwimmer fontSize={40} />,
         "heading": "SWIMMING POOL",
         "price": 2010
     },
     {
         "id": 8,
-        "icon": <FaSmoking  fontSize={40}/>,
+        "icon": <FaSmoking fontSize={40} />,
         "heading": "SMOKING FREE",
         "price": 2010
+    }
+]
+export const topReview = [
+    {
+        "id": 1,
+        "para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ex neque, sodales accumsan sapien et, auctor vulputate quam donec vitae consectetur turpis",
+    },
+]
+export const latestNew = [
+    {
+        "id": 1,
+        "para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ex neque, sodales accumsan sapien et, auctor vulputate quam donec vitae consectetur turpis",
+    },
+]
+export const news = [
+    {
+        "id": 1,
+        "img": img,
+        "label": "16 DECEMBER 2019",
+        "postBy": "Sherry Lin",
+        "comments": "3 comments",
+        "heading": "WHY CHOOSE GAUTAMA HOTEL TO TRAVEL THIS SUMMER",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum orci nulla, fermentum in faucibus a, interdum eu nibh."
+    },
+    {
+        "id": 1,
+        "img": img1,
+        "label": "14 DECEMBER 2019",
+        "postBy": "Sherry Lin",
+        "comments": "3 comments",
+        "heading": "WHY CHOOSE GAUTAMA HOTEL TO TRAVEL THIS SUMMER",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum orci nulla, fermentum in faucibus a, interdum eu nibh."
+    },
+    {
+        "id": 1,
+        "img": img2,
+        "label": "12 DECEMBER 2019",
+        "postBy": "Sherry Lin",
+        "comments": "3 comments",
+        "heading": "WHY CHOOSE GAUTAMA HOTEL TO TRAVEL THIS SUMMER",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum orci nulla, fermentum in faucibus a, interdum eu nibh."
     }
 ]

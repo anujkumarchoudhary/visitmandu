@@ -1,0 +1,30 @@
+.reviewCardContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-block-start: 6%;
+
+    .image {
+        width: 20%;
+
+        img {
+            border-radius: 50%;
+        }
+
+    }
+
+    .review {
+        width: 78%;
+
+        h5 {
+            color: #8C8C8C;
+            font-style: italic;
+        }
+
+        svg {
+            width: fit-content;
+            height: fit-content;
+            color: #FFA801;
+            margin-inline-end: 0.8rem;
+        }
+    }
+}

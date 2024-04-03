@@ -9,7 +9,7 @@ const TopHotels = () => {
     return (
         <Grid className={styles.topHotelsContainer}>
             <SimpleHeadingText
-                heading={'TOP HOTELS'}
+                heading={'TOP '}
                 desc={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ex neque, sodales accumsan sapien et, auctor vulputate quam donec vitae consectetur turpis'}
                 name={'Explore more'}
                 handleClick={function (): void {

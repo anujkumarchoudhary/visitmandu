@@ -36,8 +36,7 @@ const WeProvides = () => {
                 <Grid item sm={6}>
                     <HeadingText
                         heading='REDEFINES THE LUXURY HOSPITALITY EXPERIENCE.'
-                        desc={para}
-                    />
+                        desc={para} label={''}                    />
 
                 </Grid>
                 <Grid item sm={6}>
