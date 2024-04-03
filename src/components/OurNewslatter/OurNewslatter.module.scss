@@ -1,0 +1,31 @@
+.ourNewslatterContainer {
+    padding-inline: 10%;
+    padding-block: 5%;
+
+    >div:nth-child(1) {
+        button {
+            display: none;
+        }
+    }
+
+    >div:nth-child(2) {
+        display: flex;
+
+        >div:nth-child(1) {
+            width: 100%;
+            margin-block: auto;
+
+        }
+
+        >div:nth-child(2) {
+            width: 14rem;
+            margin-block: auto;
+            display: flex;
+            justify-content: right;
+
+            button {
+                width: 100%;
+            }
+        }
+    }
+}

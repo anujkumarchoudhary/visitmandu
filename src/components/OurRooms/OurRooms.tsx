@@ -21,9 +21,8 @@ const OurRooms = () => {
         <Grid container className={styles.ourRoomsContainer}>
             <Grid item sm={4}>
                 <HeadingText
-                    heading={'EXPLORE ROOMS & SUITS'}
-                    desc={description}
-                />
+                    heading={'EXPLORE '}
+                    desc={description} label={'ROOMS & SUITS'}                />
             </Grid>
             <Grid item sm={8}>
                 <Grid spacing={3} container >

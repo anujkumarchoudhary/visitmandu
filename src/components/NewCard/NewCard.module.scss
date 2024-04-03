@@ -1,0 +1,19 @@
+.newCardContainer {
+    background-color: #FFFFFF;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .description{
+        padding: 5%;
+        h4{
+            margin-block: 0.5rem;
+        }
+        .postInfo{
+            padding-block: 0.5rem;
+        }
+    }
+}
