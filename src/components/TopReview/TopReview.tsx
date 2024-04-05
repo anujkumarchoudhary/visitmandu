@@ -10,7 +10,9 @@ const TopReview = () => {
         <Grid className={styles.topReviewContainer}>
             <HeadingText
                 heading={'TOP CLIENT '}
-                desc={topReview} label={'REVIEWS'}            />
+                para={"topReview"}
+                label={'REVIEWS'}
+            />
             <Grid className={styles.topReviews}>
                 <ReviewCard />
 

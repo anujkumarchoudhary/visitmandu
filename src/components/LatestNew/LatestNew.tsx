@@ -12,7 +12,8 @@ const LatestNew = () => {
         <Grid className={styles.latestNewContainer}>
             <HeadingText
                 heading={'LATEST'}
-                desc={latestNew} label={'NEWS'}            />
+                para={"latestNew"} label={'NEWS'}
+            />
             <Grid className={styles.cardContainer}>
                 {news.map((item) => {
                     return (

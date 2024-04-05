@@ -9,14 +9,7 @@ import about2 from '../../asserst/home/about2.jpg'
 
 
 const WeProvides = () => {
-    const para = [
-        {
-            "para": "This charming private 19th century mansion, which originally belonged to the family, has been completely renovated with care & passion while respecting the spirit of place."
-        },
-        {
-            "para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque varius iaculis gravida. Nunc vel maximus libero. Quisque ligula nisi, hendrerit et scelerisque et, scelerisque vitae magna. Integer sollicitudin, ex auctor iaculis tempor, mauris odio accumsan odio."
-        }
-    ]
+
     return (
         <Grid className={styles.weProvidesContainer}>
             <Grid container spacing={2} className={styles.aboutMe}>
@@ -36,7 +29,9 @@ const WeProvides = () => {
                 <Grid item sm={6}>
                     <HeadingText
                         heading='REDEFINES THE LUXURY HOSPITALITY EXPERIENCE.'
-                        desc={para} label={''}                    />
+                        para={"This charming private 19th century mansion, which originally belonged to the family, has been completely renovated with care & passion while respecting the spirit of place."}
+                        label={''}
+                    />
 
                 </Grid>
                 <Grid item sm={6}>
