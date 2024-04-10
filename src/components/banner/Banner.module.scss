@@ -1,5 +1,6 @@
 .bannerContainer {
     position: relative;
+    height: 35rem;
 
     .img {
         height: 35rem;
@@ -41,12 +42,31 @@
             }
         }
     }
+}
 
-    >div:nth-last-child(1) {
-        position: absolute;
-        top: 100%;
-        left: 50%;
-        width: 80%;
-        transform: translate(-50%, -60%);
+@media screen and (max-width:480px) {
+    .bannerContainer {
+        height: 20rem;
+
+        .img,
+        .opecity {
+            height: 20rem;
+        }
+
+        .content {
+            height: 20rem;
+            top: 60%;
+            width: 100%;
+
+            h4 {
+                display: none;
+            }
+        }
+
+        .content+div {
+            display: none;
+        }
+
     }
+
 }

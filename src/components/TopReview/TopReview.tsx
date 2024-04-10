@@ -15,7 +15,6 @@ const TopReview = () => {
             />
             <Grid className={styles.topReviews}>
                 <ReviewCard />
-
             </Grid>
         </Grid>
     )

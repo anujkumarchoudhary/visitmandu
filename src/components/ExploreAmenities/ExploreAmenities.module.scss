@@ -16,3 +16,24 @@
         }
     }
 }
+
+@media screen and (max-width:480px) {
+    .exploreAmenitiesContainer{
+        padding-inline: 6%;
+        >div:nth-child(1) {
+    
+            >div:nth-child(1) {
+                width: 100%;
+            }
+
+        }
+        .exploreAmenitiesCards{
+            display: flex;
+            flex-direction: column;
+            >div{
+                width: 100%;
+            }
+        }
+    }
+    
+}

@@ -12,7 +12,7 @@ const WeProvides = () => {
 
     return (
         <Grid className={styles.weProvidesContainer}>
-            <Grid container spacing={2} className={styles.aboutMe}>
+            <Grid container spacing={4} className={styles.aboutMe}>
                 {weProvide.map((item) => {
                     return (
                         <Grid item sm={4}>

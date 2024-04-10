@@ -9,11 +9,13 @@ import ExploreAmenities from '../../components/ExploreAmenities/ExploreAmenities
 import TopReview from '../../components/TopReview/TopReview'
 import LatestNew from '../../components/LatestNew/LatestNew'
 import OurNewslatter from '../../components/OurNewslatter/OurNewslatter'
+import AvailityForm from '../../components/AvailityForm/AvailityForm'
 
 const Home = () => {
     return (
         <Grid className={styles.homeContainer}>
             <Banner />
+            <AvailityForm />
             <WeProvides />
             <OurRooms />
             <TopHotels />

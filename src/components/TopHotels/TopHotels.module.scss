@@ -6,8 +6,31 @@
     >div {
         padding-block-end: 2%;
     }
+}
 
-    .hotelCards {
-        // border: 1px solid yellow;
+@media screen and (max-width:480px) {
+    .topHotelsContainer {
+        padding-inline: 6%;
+        padding-block-start: 5%;
+        margin-block-start: 5%;
+
+        >div:nth-child(1) {
+            display: flex;
+            flex-direction: column !important;
+            width: 100%;
+            text-align: center;
+            padding-block: 5%;
+
+
+        }
+
+        .hotelCards {
+            margin: auto;
+
+            >div {
+                padding: 0;
+            }
+        }
     }
+
 }

@@ -1,9 +1,10 @@
 .weProvidesContainer {
-    padding-inline: 10%;
+    padding-inline: 8%;
     background-color: #F7F8F9;
 
     .weProvide {
         padding-block-start: 6%;
+        padding-block-end: 12%;
 
         >div:nth-child(2) {
             position: relative;
@@ -22,4 +23,57 @@
             }
         }
     }
+}
+
+@media screen and (max-width:480px) {
+    .weProvidesContainer {
+        padding-inline: 0%;
+
+
+        .aboutMe {
+            width: 85%;
+            margin: auto;
+
+            >div {
+                padding: 0%;
+                margin-block: 1rem;
+            }
+        }
+
+        .weProvide {
+            width: 85%;
+            margin: auto;
+            padding: 0%;
+
+            >div:nth-child(1) {
+                padding: 0%;
+                padding-block-start: 1.5rem;
+            }
+
+            >div:nth-child(2) {
+                position: unset;
+                padding: 0%;
+                width: 100%;
+                margin: 0%;
+
+                >div:nth-child(1),
+                >div:nth-child(2) {
+                    border: 5px solid #ffffff;
+                    position: unset;
+                    right: unset;
+                    margin-block: 1.6rem;
+
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: fill;
+                        margin: auto;
+                    }
+                }
+            }
+
+        }
+    }
+
 }
