@@ -11,9 +11,7 @@ import { FaLinkedinIn } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 
 
-
 const Footer = () => {
-
     return (
         <Grid className={styles.footerContainer}>
             <Grid>
@@ -56,11 +54,11 @@ const Footer = () => {
                         <Typography>Tel: 91+ 9953176985</Typography>
                         <Typography>E-mail: anujkumarchoudhary6699@gmail.com</Typography>
                         <Typography>Add: Ashok Nager, Delhi</Typography>
-                        <Box sx={{marginBlock:2}}>
-                            <FaFacebookF fontSize={25} style={{color:"#ffffff"}} />
-                            <FaTwitter fontSize={25}  style={{marginInline:8,color:"#ffffff"}}/>
-                            <FaLinkedinIn fontSize={25} style={{color:"#ffffff"}}/>
-                            <FaInstagram fontSize={25}  style={{marginInline:8, color:"#ffffff"}} />
+                        <Box sx={{ marginBlock: 2 }}>
+                            <FaFacebookF fontSize={25} style={{ color: "#ffffff" }} />
+                            <FaTwitter fontSize={25} style={{ marginInline: 8, color: "#ffffff" }} />
+                            <FaLinkedinIn fontSize={25} style={{ color: "#ffffff" }} />
+                            <FaInstagram fontSize={25} style={{ marginInline: 8, color: "#ffffff" }} />
                         </Box>
                     </Box>
                 </Grid>

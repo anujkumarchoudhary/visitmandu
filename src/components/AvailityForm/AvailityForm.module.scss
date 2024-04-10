@@ -5,6 +5,7 @@
     padding-inline: 4%;
     padding-block: 2.5%;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
     >div {
         width: 19%;
     }
@@ -12,4 +13,20 @@
     >div:nth-child(5) {
         margin-block-end: 0%;
     }
+}
+
+@media screen and (max-width:480px) {
+    .availityFormContainer {
+        padding-inline: 4%;
+        display: flex;
+        flex-direction: column !important;
+
+        >div:nth-child(5) {
+            display: flex;
+            justify-content: center;
+            margin-block: 1rem;
+        }
+
+    }
+
 }

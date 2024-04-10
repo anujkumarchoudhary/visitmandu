@@ -3,7 +3,6 @@ import styles from './Banner.module.scss'
 import { Box, Grid, Typography } from '@mui/material'
 import img from '../../asserst/banner/slider3.jpg'
 import CommonButton from '../CommonButton/CommonButton'
-import AvailityForm from '../AvailityForm/AvailityForm'
 
 const Banner = () => {
     return (
@@ -12,7 +11,6 @@ const Banner = () => {
                 <img src={img} />
             </Grid>
             <Grid className={styles.opecity}>
-
             </Grid>
             <Grid className={styles.content}>
                 <Box>
@@ -24,7 +22,6 @@ const Banner = () => {
                     />
                 </Box>
             </Grid>
-            <AvailityForm />
         </Grid>
     )
 }

@@ -2,3 +2,12 @@
     padding-inline: 10%;
     padding-block: 5%;
 }
+
+@media screen and (max-width:480px) {
+    .ourRoomsContainer {
+        padding-inline: 6%;
+        padding-block: 5%;
+        margin-block-start: 5%;
+    }
+
+}

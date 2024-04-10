@@ -1,7 +1,19 @@
 .simpleHeadingTextContainer {
     display: flex;
     justify-content: space-between;
-    >div:nth-child(1){
+
+    >div:nth-child(1) {
         width: 75%;
     }
+}
+
+@media screen and (max-width:480px) {
+
+    .simpleHeadingTextContainer {
+        >div:nth-child(1) {
+            width: 100%;
+        }
+    }
+
+
 }

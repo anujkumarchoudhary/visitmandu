@@ -19,5 +19,16 @@
 
     >div {
         width: 32%;
+
+        @media screen and (max-width:480px) {
+            width: 100%;
+        }
+    }
+
+    >div:nth-child(2) {
+        @media screen and (max-width:480px) {
+            margin-block: 1rem;
+
+        }
     }
 }

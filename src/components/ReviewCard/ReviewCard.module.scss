@@ -28,3 +28,21 @@
         }
     }
 }
+
+@media screen and (max-width:480px) {
+    .reviewCardContainer {
+        display: flex;
+        flex-direction: column !important;
+
+        .image {
+            margin-inline: auto;
+            width: fit-content;
+
+        }
+
+        .review {
+            width: 100%;
+        }
+    }
+
+}

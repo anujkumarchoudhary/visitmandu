@@ -56,7 +56,7 @@ export const menus = [
     {
         "id": 1,
         "label": "Home",
-        "path": "/home"
+        "path": "/"
     },
     {
         "id": 1,
