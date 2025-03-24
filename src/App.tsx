@@ -10,7 +10,7 @@ import ResponseHeader from './components/ResponseHeader/ResponseHeader'
 //commentnew
 const App = () => {
   console.log("hello 22")
-  return (
+  return 
     <Fragment>
       {window.innerWidth > 480 ?
         <>
