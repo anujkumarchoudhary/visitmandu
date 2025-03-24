@@ -18,7 +18,7 @@ const App = () => {
           <Header />
         </>
         :
-        <ResponseHeader />
+        <ResponseHeader 
       }
       <Routes>
         <Route path='/' element={<Home />} />
