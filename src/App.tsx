@@ -9,7 +9,7 @@ import About from './pages/about/About'
 import ResponseHeader from './components/ResponseHeader/ResponseHeader'
 //commentnew
 const App = () => {
-  console.log("hello")
+  console.log("hello 22")
   return (
     <Fragment>
       {window.innerWidth > 480 ?
